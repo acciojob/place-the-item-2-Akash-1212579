@@ -1,2 +1,18 @@
+.holder {
+  display: flex;
+  justify-content: center;   /* centers items horizontally */
+  align-items: center;       /* centers items vertically */
+  flex-wrap: wrap;           /* moves extra items to next row */
+  gap: 10px;                 /* optional spacing between items */
+  min-height: 100vh;         /* full height container (for vertical centering) */
+}
 
-/* Your CSS Code here. */
+.holder .item {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
